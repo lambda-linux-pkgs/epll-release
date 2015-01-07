@@ -67,6 +67,9 @@ ln -s %name-%version $RPM_BUILD_ROOT%{_docdir}/%name
 %{_docdir}/%name
 
 %changelog
+* Wed Jan 07 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2014.09-1
+- Add repo priority
+
 * Sat Dec 06 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2014.09-1
 - Add `epll-release.spec`
 - Add `RPM-GPG-KEY-lambda-epll`
