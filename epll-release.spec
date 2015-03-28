@@ -1,7 +1,7 @@
 %define _buildid .2
 
 Name:           epll-release
-Version:        2014.09
+Version:        2015.03
 Release:        1%{?_buildid}%{?dist}
 Summary:        Extra Packages for Lambda Linux repository configuration
 
