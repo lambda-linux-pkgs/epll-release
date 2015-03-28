@@ -67,6 +67,9 @@ ln -s %name-%version $RPM_BUILD_ROOT%{_docdir}/%name
 %{_docdir}/%name
 
 %changelog
+* Sat Mar 28 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2015.03-1
+- Update `Version:` to `2015.03`
+
 * Wed Jan 07 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2014.09-1
 - Add repo priority
 
