@@ -67,6 +67,9 @@ ln -s %name-%version $RPM_BUILD_ROOT%{_docdir}/%name
 %{_docdir}/%name
 
 %changelog
+* Wed Mar 16 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com> - 2016.03-1
+- Update `Version:` to `2016.03`
+
 * Tue Sep 15 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2015.09-1
 - Update `Version:` to `2015.09`
 
