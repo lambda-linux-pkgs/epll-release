@@ -67,6 +67,10 @@ ln -s %name-%version $RPM_BUILD_ROOT%{_docdir}/%name
 %{_docdir}/%name
 
 %changelog
+* Wed Sep 28 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+- epll-release.spec: Rename `_buildid` to `_ll_buildid`
+- epll-release.spec: Update `Version:` to `2016.09`
+
 * Wed Mar 16 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com> - 2016.03-1
 - Update `Version:` to `2016.03`
 
