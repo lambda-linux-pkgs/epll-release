@@ -67,6 +67,9 @@ ln -s %name-%version $RPM_BUILD_ROOT%{_docdir}/%name
 %{_docdir}/%name
 
 %changelog
+* Mon Oct 31 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+- RPM-GPG-KEY-lambda-epll: Switch package signing public key
+
 * Wed Sep 28 2016 Rajiv M Ranganath <rajiv.ranganath@atihita.com>
 - epll-release.spec: Rename `_buildid` to `_ll_buildid`
 - epll-release.spec: Update `Version:` to `2016.09`
