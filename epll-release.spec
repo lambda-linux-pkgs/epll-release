@@ -1,7 +1,7 @@
 %define _ll_buildid .2
 
 Name:           epll-release
-Version:        2016.09
+Version:        2017.03
 Release:        1%{?_ll_buildid}%{?dist}
 Summary:        Extra Packages for Lambda Linux repository configuration
 
@@ -20,17 +20,12 @@ Source20:       RPM-GPG-KEY-lambda-epll
 # 30-39 documentation
 Source31:       GPL
 
-# 40-onwards cloud-init configurations
-
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 Requires:       system-release >= %{version}
 Conflicts:      fedora-release
 
 %description
-For package support, please visit
-https://github.com/lambda-linux-pkgs/%{name}/issues
-
 This package contains the Extra Packages for Lambda Linux (EPLL)
 repository GPG key as well as configuration for yum and up2date.
 
